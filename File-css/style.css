@@ -47,3 +47,18 @@ footer{
     background-color: rgb(70, 65, 65);
     height: 65px;
 }
+
+#options1{
+    width: 25% ;
+    border: 2px solid black;
+}
+
+#options2{
+    width: 25%;
+    border: 2px solid black;
+}
+
+nav{
+    width: 50%;
+    border: 2px solid black;
+}
