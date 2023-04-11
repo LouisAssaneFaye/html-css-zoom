@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.window.container{
+    margin: 0 auto;
+    width: 90vw;
+    height: 550px ;
+    overflow: scroll;
+    background-color: black;
+
+}
+
+.container.scrolling_content{
+    width: 90vw;
+}
+
+div.row{
+    height: calc(550px / 5);
+    width: 100% ;
+    background: gray;
+    display: flex;
+}
+
+div.card{
+    height: calc(550px / 5);
+    width: calc(100% / 7);
+    position: relative;
+    background-color: black;
+}
+
+div.card img{
+    width: 97.5%;
+    height: 97.5px;
+}
+
+body{
+    padding-top: 120px;
+    background-color: black;
+}
+
+footer{
+    margin-top: 12.5px;
+    display: flex;
+    background-color: rgb(70, 65, 65);
+    height: 65px;
+}
